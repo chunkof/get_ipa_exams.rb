@@ -57,11 +57,11 @@ for heisei in s_heisei..e_heisei do
   
   # ダウンロード
   download(base_url +"_am2_qs.pdf",  "H"+heisei.to_s+"_"+s_jp+"_AMⅡ_問題.pdf")
-  download(base_url +"_am2_ans.pdf", "H"+heisei.to_s+"_"+s_jp+"_AMⅡ_回答.pdf")
+  download(base_url +"_am2_ans.pdf", "H"+heisei.to_s+"_"+s_jp+"_AMⅡ_解答.pdf")
   download(base_url +"_pm1_qs.pdf",  "H"+heisei.to_s+"_"+s_jp+"_PMⅠ_問題.pdf")
-  download(base_url +"_pm1_ans.pdf", "H"+heisei.to_s+"_"+s_jp+"_PMⅠ_回答.pdf")
+  download(base_url +"_pm1_ans.pdf", "H"+heisei.to_s+"_"+s_jp+"_PMⅠ_解答.pdf")
   download(base_url +"_pm2_qs.pdf",  "H"+heisei.to_s+"_"+s_jp+"_PMⅡ_問題.pdf")
-  download(base_url +"_pm2_ans.pdf", "H"+heisei.to_s+"_"+s_jp+"_PMⅡ_回答.pdf")
+  download(base_url +"_pm2_ans.pdf", "H"+heisei.to_s+"_"+s_jp+"_PMⅡ_解答.pdf")
 end
 
 
