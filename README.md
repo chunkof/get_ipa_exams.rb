@@ -8,7 +8,7 @@ IPAから情報処理試験の過去問(問題&回答)を一括ダウンロー�
 
 ### input
 
-    >ruby download_ipa_past_exams.rb
+    >ruby get_ipa_exams.rb
 
 ### output
 
