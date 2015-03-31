@@ -6,7 +6,11 @@ IPAから情報処理試験の過去問(問題&回答)を一括ダウンロー�
 ## Usage
 デフォルトでは「エンベデッドシステムスペシャリスト」の過去問をダウンロードするようになっています。
 
-    ruby download_ipa_past_exams.rb
+### input
+
+    >ruby download_ipa_past_exams.rb
+
+### output
 
     http://www.jitec.ipa.go.jp/1_04hanni_sukiru/mondai_kaitou_2009h21_1/2009h21h_es_am2_qs.pdf -> H21_春_AMⅡ_問題.pdf
     http://www.jitec.ipa.go.jp/1_04hanni_sukiru/mondai_kaitou_2009h21_1/2009h21h_es_am2_ans.pdf -> H21_春_AMⅡ_回答.pdf
