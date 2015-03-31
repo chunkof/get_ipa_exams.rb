@@ -1,6 +1,9 @@
 IPA過去問一括ダウンロード
 ==========
 
+IPAから情報処理試験の過去問(問題&回答)を一括ダウンロードします。
+
+## Usage
 デフォルトではエンベデッドシステムスペシャリストの過去問をダウンロードするようになっています。
 
     ruby download_ipa_past_exams.rb
@@ -13,7 +16,7 @@ IPA過去問一括ダウンロード
     ～
     http://www.jitec.ipa.go.jp/1_04hanni_sukiru/mondai_kaitou_2014h26_1/2014h26h_es_pm2_ans.pdf -> H26_春_PMⅡ_回答.pdf
 
-
+## Option
 
 コードの以下のあたりを弄れば、他の試験もダウンロード可能です（多分）
 
@@ -23,3 +26,4 @@ IPA過去問一括ダウンロード
     e_heisei = 26
     spring = true
     autom  = false
+
